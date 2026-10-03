@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────────────────────
+# ChampisHW .gitignore — KiCad PCB project
+# TRACKED:  .kicad_pcb/.kicad_pro, generar_*.py, schematic PDF,
+#           the two frozen fab .zip deliverables (provenance).
+# IGNORED:  regenerable loose Gerber folders, KiCad autosave/backup noise.
+# ─────────────────────────────────────────────────────────────
+
+# ── Regenerable Gerber output folders (produced by generar_*.py) ──
+# Kept on disk, out of git — regenerate from KiCad source any time.
+Gerbers_ChampIS_v3/
+Gerbers_Finales/
+
+# ── Loose Gerber/drill files if any land in root ──────────────
+*.gbr
+*.gbl
+*.gtl
+*.gbo
+*.gto
+*.gbs
+*.gts
+*.gbu
+*.gm1
+*.gbrjob
+*.drl
+
+# NOTE: the two frozen deliverable zips ARE tracked on purpose
+# (ChampIS_v3_Gerbers_KISS.zip, ChampIS_v3_Produccion.zip) for fab
+# provenance. Other build zips are ignored:
+*.zip
+!ChampIS_v3_Gerbers_KISS.zip
+!ChampIS_v3_Produccion.zip
+
+# ── KiCad autosave / backup / lock noise ──────────────────────
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.lck
+fp-info-cache
+~*.lck
+
+# ── macOS ──────────────────────────────────────────────────────
+.DS_Store

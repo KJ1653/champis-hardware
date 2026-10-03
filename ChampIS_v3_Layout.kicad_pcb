@@ -1,0 +1,96 @@
+(kicad_pcb (version 20211014) (generator python_kiss_script)
+  (general (thickness 1.6))
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (44 "Edge.Cuts" user)
+  )
+
+  # ==========================================
+  # 1. CONTORNO FÍSICO DE LA PLACA (60x40mm)
+  # ==========================================
+  (gr_line (start 0 0) (end 60.0 0) (layer "Edge.Cuts") (width 0.15))
+  (gr_line (start 60.0 0) (end 60.0 40.0) (layer "Edge.Cuts") (width 0.15))
+  (gr_line (start 60.0 40.0) (end 0 40.0) (layer "Edge.Cuts") (width 0.15))
+  (gr_line (start 0 40.0) (end 0 0) (layer "Edge.Cuts") (width 0.15))
+
+  # ==========================================
+  # 2. HELTEC WIFI LORA 32 V3 (CENTRO TOP)
+  # ==========================================
+  (pad "H_L1" thru_hole circle (at 18.5700 -1.5900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L2" thru_hole circle (at 18.5700 0.9500) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L3" thru_hole circle (at 18.5700 3.4900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L4" thru_hole circle (at 18.5700 6.0300) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L5" thru_hole circle (at 18.5700 8.5700) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L6" thru_hole circle (at 18.5700 11.1100) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L7" thru_hole circle (at 18.5700 13.6500) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L8" thru_hole circle (at 18.5700 16.1900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L9" thru_hole circle (at 18.5700 18.7300) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L10" thru_hole circle (at 18.5700 21.2700) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L11" thru_hole circle (at 18.5700 23.8100) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L12" thru_hole circle (at 18.5700 26.3500) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L13" thru_hole circle (at 18.5700 28.8900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L14" thru_hole circle (at 18.5700 31.4300) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L15" thru_hole circle (at 18.5700 33.9700) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L16" thru_hole circle (at 18.5700 36.5100) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L17" thru_hole circle (at 18.5700 39.0500) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_L18" thru_hole circle (at 18.5700 41.5900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R1" thru_hole circle (at 41.4300 -1.5900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R2" thru_hole circle (at 41.4300 0.9500) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R3" thru_hole circle (at 41.4300 3.4900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R4" thru_hole circle (at 41.4300 6.0300) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R5" thru_hole circle (at 41.4300 8.5700) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R6" thru_hole circle (at 41.4300 11.1100) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R7" thru_hole circle (at 41.4300 13.6500) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R8" thru_hole circle (at 41.4300 16.1900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R9" thru_hole circle (at 41.4300 18.7300) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R10" thru_hole circle (at 41.4300 21.2700) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R11" thru_hole circle (at 41.4300 23.8100) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R12" thru_hole circle (at 41.4300 26.3500) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R13" thru_hole circle (at 41.4300 28.8900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R14" thru_hole circle (at 41.4300 31.4300) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R15" thru_hole circle (at 41.4300 33.9700) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R16" thru_hole circle (at 41.4300 36.5100) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R17" thru_hole circle (at 41.4300 39.0500) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad "H_R18" thru_hole circle (at 41.4300 41.5900) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  # Espacio seguro para el MT3608 debajo de la Heltec
+  (gr_rect (start 22.00 9.00) (end 38.00 31.00) (layer "B.SilkS") (width 0.12))
+  (gr_text "MT3608 HW-045 UNDER" (at 30.0000 20.0000) (layer "B.SilkS") (effects (font (size 1 1) (thickness 0.15)) (justify mirror)))
+
+  # ==========================================
+  # 4. COMPACTO & KISS: BORNERAS EN EL BORDE DERECHO (Pitch 2.54mm)
+  # Alineadas a X = 55.0mm para salida directa a las glándulas
+  # ==========================================
+  # Terminal Solenoide (2 pines)
+  (pad "SOL_1" thru_hole circle (at 56.00 32.00) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad "SOL_2" thru_hole circle (at 56.00 29.46) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  # Terminal Bocina (2 pines)
+  (pad "SPK_1" thru_hole circle (at 56.00 23.00) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad "SPK_2" thru_hole circle (at 56.00 20.46) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  # Terminal Sensor de Flujo (3 pines: 5V, SIG, GND)
+  (pad "FLOW_VCC" thru_hole circle (at 56.00 14.00) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad "FLOW_SIG" thru_hole circle (at 56.00 11.46) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad "FLOW_GND" thru_hole circle (at 56.00 8.92) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  # Entrada de Batería JST PH 2.0mm (Lado Izquierdo)
+  (pad "BAT_POS" thru_hole circle (at 4.00 21.00) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
+  (pad "BAT_NEG" thru_hole circle (at 4.00 19.00) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
+
+  # ==========================================
+  # 6. DIVISOR DE VOLTAJE (R1/R2 THROUGH-HOLE) - PROTECCIÓN GPIO3
+  # Posicionado estratégicamente cerca de la bornera de flujo e inspección
+  # ==========================================
+  # Resistencia R1 (10k) - Distancia estándar entre patas: 7.62mm (0.3 pulgadas)
+  (pad "R1_1" thru_hole circle (at 48.00 11.46) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (pad "R1_2" thru_hole circle (at 48.00 3.84) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+
+  # Resistencia R2 (20k)
+  (pad "R2_1" thru_hole circle (at 52.00 11.46) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (pad "R2_2" thru_hole circle (at 52.00 3.84) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+)
